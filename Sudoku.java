@@ -9,9 +9,7 @@ public class Sudoku {
 	
 	@SuppressWarnings("unchecked") //Used for clone
 	
-	/** Constructs Sudoku obj
-	 *  
-	 */
+	/** Constructs Sudoku obj */
 	public Sudoku(){
 		board = new ArrayList<ArrayList<HashSet<Integer>>>(9);
 		HashSet<Integer> temp = new HashSet<Integer>();
